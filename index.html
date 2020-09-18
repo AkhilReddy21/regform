@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION FORM</title>
+    <style>
+        
+        body{
+            background:linear-gradient(cornsilk,skyblue);
+
+        }
+        
+
+        form{
+            box-sizing:border-box;
+            border: 3px solid grey;
+            width: 600px;
+            padding: 20px;
+            
+        }
+        #reg{
+            text-align: center;
+            font-family: 'playfair Display',serif;
+            font-size: 25px;
+            -webkit-animation:colorchange 1s infinite alternate;
+        }@-webkit-keyframes colorchange{
+            0%{color:indigo;}100%{color:mediumpurple;}
+        }
+        
+    </style>
+    </head>
+<body>
+    
+    <h1 id="reg"><header>NATIONAL INSTITUTE OF TECHNOLOGY PATNA</header></h1>
+    
+    <h1 id="reg">REGISTRATION</h1>
+    
+    <h3>Basic Details</h3>
+    <div>
+        <form>
+    <table border="2">
+        <tr>
+        <td><label>Form Number</label></td>
+        <td><input type="text" name="" placeholder="input form number" autofocus></td>
+        </tr>
+        <tr>
+        <td><label>Name</label></td>
+        <td><input type="text" name="" placeholder="input full name"></td>
+        </tr>
+        <tr>
+        <td><label>Roll Number</label></td>
+        <td><input type="text" name="" placeholder="input roll number"></td>
+        </tr>
+        <tr>
+        <td><label>Gender</label></td>
+        <td>
+            Male<input type="radio" name="Gender" >
+            Female<input type="radio" name="Gender" >
+        </td>
+        </tr>
+        <tr>
+        <td>DOB</td>
+        <td><input type="date" name="" placeholder="dd-mm-yyyy"></td>
+        </tr>
+        <tr>
+        <td><label>PWD</label></td>
+        <td>
+            YES<input type="radio" name="">
+            NO<input type="radio" name="">
+        </td>
+        </tr>
+        <tr>
+        <td><label>Category</label></td>
+        <td>
+            <select>
+                <option>OC</option>
+                <option>OBC</option>
+                <option>BC</option>
+                <option>SC</option>
+                <option>ST</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+        <td><label>Address</label></td>
+        <td>
+            <textarea cols="50" rows="10" name="address"></textarea>
+        </td>
+        </tr>
+        <tr>
+        <td><label>Pincode</label></td>
+        <td><input type="text" name="" placeholder="enter pincode">(*please input the correct pin code)</td>
+        </tr>
+        <tr>
+        <td><label>Phone of Student</label></td>
+        <td><input type="tel" name="" placeholder="enter student's number"></td>
+        </tr>
+        <tr>
+        <td><label>Phone of Guardian</label></td>
+        <td><input type="tel" name="" placeholder="enter guardian's number"></td>
+        </tr>
+    </table>
+        </form>
+    </div>
+    <h3>Academic Information</h3>
+    <div>
+        <form>
+        <table border="2">
+        
+        <tr>
+        <td><label>Course</label></td>
+        <td>
+        <select>
+        <option>B.Tech</option>
+        <option>M.Tech</option>
+        <option>PHD</option>
+        </select>    
+        </td>
+        </tr>
+        <tr>
+        <td><label>Branch</label></td>    
+        <td><input type="text" name="" placeholder="input name of Branch"></td>
+        </tr>
+        <tr>
+        <td><label>Semester</label></td>
+        <td>
+           <select>
+           <option>1st</option>
+           <option>2nd</option>
+           <option>3rd</option>
+           <option>4th</option>
+           </select>  (*for which allotment will be done)  
+        </td>
+        </tr>
+        <tr>
+        <td><label>All India Rank</label></td>
+        <td><input type="text" name="" placeholder="input all india rank" >(2020 JEE Main/GATE)</td>
+        </tr>
+        <tr>
+        <td><label>Category Rank</label></td>
+        <td><input type="text" name="" placeholder="input category rank" >(2020 JEE Main/Gate)</td>
+        </tr>
+        <tr>
+        <td><label>CGPA</label></td>
+        <td><input type="text" name="" placeholder="enter CGPA" ></td>
+        </tr>
+        <tr>
+        <td><label>Backlog</label></td>
+        <td>
+            YES<input type="radio" name="">
+            NO<input type="radio" name="">
+        </td>
+        </tr>
+        <tr>
+        <td><label>Hostel Accomodation</label></td>
+        <td>
+            YES<input type="radio" name="">
+            NO<input type="radio" name="">(*If any)
+        </td>
+        </tr>
+        <tr>
+        <td><label>Name of Hostel</label></td>
+        <td><input type="text" name="" placeholder="Input name of Hostel" ></td>
+        </tr>
+        <tr>
+        <td><label>Room Number</label></td>
+        <td><input type="text" name="" placeholder="enter Room number" ></td>
+        </tr>
+        </table>
+        </form>
+    </div>
+    <h3>Account Details for Refunding Process</h3>
+    <div>
+        <form>
+        <table border="2">
+        <tr>
+        <td><label>Account Holder Name</label></td>
+        <td><input type="text" name="" placeholder="enter Account holder name" >(*As per Bank Passbook)</td>
+        </tr>
+        <tr>
+        <td><label>Account Number</label></td>
+        <td><input type="text" name="" placeholder="enter Account Number" ></td>
+        </tr>
+        <tr>
+        <td><label>IFSC Code</label></td>
+        <td><input type="text" name="" placeholder="enter IFSC Code" ></td>
+        </tr>
+        <tr>
+        <td><label>Bank Name</label></td>
+        <td><input type="text" name="" placeholder="enter Bank Name" ></td>
+        </tr>
+        <tr>
+        <td><label>Bank Branch</label></td>
+        <td><input type="text" name="" placeholder="enter Bank Branch" ></td>
+        </tr>
+            </table>
+        </form>
+    </div>
+    <div align="center"><h1>NAME:-N.SAI AKHILESH REDDY<br>ROLL NO:-1906051</h1></div>
+    </body>
+
+</html>
